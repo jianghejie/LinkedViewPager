@@ -13,7 +13,9 @@ a linked ViewPager and a demo to show the effect
 如果ViewPager有关于移动距离的回调接口，这事儿就好办了，遗憾的是没有，只有一个OnPageChangeListener，我试过在OnPageChangeListener中根据onPageScrolled(int position, float positionOffset, int positionOffsetPixels)的参数来做，但是失败了。
 
 那就只有自定义ViewPager了。
+
 使用方法
+===============
 假设有一个是mViewPager，有一个是mFollowViewPager,我想让mFollowViewPager随着mViewPager动，则：
  
 mPager.setFollowViewPager(mFollowViewPager);
