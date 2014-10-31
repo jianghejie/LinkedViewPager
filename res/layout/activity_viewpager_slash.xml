@@ -1,0 +1,30 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#467212"
+    android:orientation="vertical"
+    >
+
+    <com.jcodecraeer.linkedviewpager.LinkedViewPager.ViewPager 
+	    android:id="@+id/pager"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+    />	
+    <com.jcodecraeer.linkedviewpager.LinkedViewPager.NotouchLayout 
+      android:layout_width="220dip"
+      android:layout_height="390dip"
+      android:layout_gravity="center|top"
+      android:background="@drawable/phone_frame"
+      android:layout_marginTop="50dip"
+    >
+	    <com.jcodecraeer.linkedviewpager.LinkedViewPager.ViewPager 
+	      android:id="@+id/main_scrolllayout"
+	      android:layout_width="fill_parent"
+	      android:layout_height="fill_parent"
+	      android:focusable="false"
+	      android:layout_centerInParent="true"
+    	/>	
+    </com.jcodecraeer.linkedviewpager.LinkedViewPager.NotouchLayout>
+    		
+</FrameLayout>
