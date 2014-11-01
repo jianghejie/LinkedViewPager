@@ -1,7 +1,7 @@
 LinkedViewPager
 ===============
 
-a linked ViewPager and a demo to show the effect
+a android linked ViewPager and a demo to show the effect
 
 仿zaker最新版本引导界面的视图联动效果（修改viewpager实现）   
 
