@@ -1,4 +1,4 @@
-LinkedViewPager
+LinkedViewPager android
 ===============
 
 a android linked ViewPager and a demo to show the effect
